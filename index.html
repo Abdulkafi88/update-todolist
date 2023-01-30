@@ -8,17 +8,56 @@
     <title>Document</title>
 </head>
 <body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">WebDev.</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
     <div class="con1">
         <div class="con2">
             <h1>Todo List</h1>
             <input type="text" id="input" placeholder="add new task">
             <button onclick="todo()"  >Add new task</button>
+            
             <ul id="list"></ul>
     </div>
     </div>
+    <div class="remote">
+            <li id="red"></li>
+            <li id="bule"></li>
+            <li id="orange"></li>
+    </div>
 
-  
-
+    <div class="numbers">
+        <ul>
+            <li id="pumpkin">0</li>
+            <li id="dominosPizza">+3</li>
+            <li id="Zebra">+9</li>
+            <li id="luffy4">-2</li>
+        </ul>
+    </div>
+    <h3>total <span id="placeToputResult"></span></h2>
+ 
     <script src="./js.js"></script>
 </body>
 </html>
