@@ -170,7 +170,7 @@ ul{
 .remote{
     
     border: 1px solid black;
-    width: 10%;
+    width: 40%;
     border-radius: 5px;
 }
 
@@ -200,7 +200,7 @@ li{
     display: flex;
     justify-content: center;
     border: 1px solid black;
-    width: 10%;
+    width: 40%;
     border-radius: 5px;
 }
 
