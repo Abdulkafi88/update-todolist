@@ -16,33 +16,34 @@
 // }
 
 
-// function todo(){
-//     let newp=document.createElement('li')
-//     let inputvuale=document.getElementById('input').value
-//     let textNode=document.createTextNode(inputvuale)
-//     newp.appendChild(textNode)
+function todo(){
+    let newp=document.createElement('li')
+    let inputvuale=document.getElementById('input').value
+    let textNode=document.createTextNode(inputvuale)
+    newp.appendChild(textNode)
 
-//     if(inputvuale===''){
-//         alert('add new task')
-//     }
+    if(inputvuale===''){
+        alert('add new task')
+    }
 
-//     else{
-//         document.getElementById('list').appendChild(newp)
+    else{
+        document.getElementById('list').appendChild(newp)
 
-       
-//     }
 
-//     document.getElementById('input').value=''
+    }
 
-//     newp.addEventListener('click', function(){
-//         newp.style.textDecoration='line-through'
-        
-//     })
+    document.getElementById('input').value=''
 
-//     newp.addEventListener('dblclick',  function(){
-//         newp.removeChild(textNode)
-//     })
-// }
+    newp.addEventListener('click', function(){
+        newp.style.textDecoration='line-through'
+
+    })
+
+    newp.addEventListener('dblclick',  function(){
+        newp.removeChild(textNode)
+    })
+}
+
 
 
 // document.getElementById('red').addEventListener('click',abdul)
@@ -98,22 +99,22 @@
 
 
 
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-const navLink = document.querySelectorAll(".nav-link");
+// const hamburger = document.querySelector(".hamburger");
+// const navMenu = document.querySelector(".nav-menu");
+// const navLink = document.querySelectorAll(".nav-link");
 
-hamburger.addEventListener("click", mobileMenu);
-navLink.forEach(n => n.addEventListener("click", closeMenu));
+// hamburger.addEventListener("click", mobileMenu);
+// navLink.forEach(n => n.addEventListener("click", closeMenu));
 
-function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-}
+// function mobileMenu() {
+//     hamburger.classList.toggle("active");
+//     navMenu.classList.toggle("active");
+// }
 
-function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-}
+// function closeMenu() {
+//     hamburger.classList.remove("active");
+//     navMenu.classList.remove("active");
+// }
 
 
 
